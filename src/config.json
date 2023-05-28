@@ -1,0 +1,8 @@
+{
+    "DB_URL": "209.145.51.145",
+    "DB_PORT": "6379",
+    "DB_PASSWORD": "RBOJ9cCNoGCKhlEBwQLHri1g+atWgn4Xn4HwNUbtzoVxAYxkiYBi7aufl4MILv1nxBqR4L6NNzI0X6cE",
+    "JWT_SECRET": "pru3b@T0k3n2oo3",
+    "TARJETANOVALIDA": "formato de tarjeta no válido",
+    "PK_TOKEN": "pk_test_LsRBKejzCOEEWOsw"
+}
