@@ -1,5 +1,5 @@
 import config from "../config.json"
-var redis = require("redis");
+
 
 export const luhn = (value: string) => {
      // Accept only digits, dashes or spaces
@@ -55,7 +55,7 @@ export const luhn = (value: string) => {
 
     var partToken = token.split(" ");
     if (partToken.length != 2) {
-        return {ok: false, rsta: "El formato del token no es valido"}
+        return {ok: false, rsta: "El formato del token no es válido"}
     }
 
     if (partToken[1] !=  config["PK_TOKEN"] && flagStore == true) {
